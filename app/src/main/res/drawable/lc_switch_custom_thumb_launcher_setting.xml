@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape android:shape="oval">
+            <size android:width="20dp" android:height="20dp" />
+            <stroke android:width="3dp" android:color="@color/lc_switch_trac_color_on"/>
+            <solid android:color="@color/lc_switch_thumb_color_on" /> <!-- Thumb color when ON -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <size android:width="20dp" android:height="20dp" />
+            <stroke android:width="3dp" android:color="@color/lc_switch_track_color"/>
+            <solid android:color="@color/lc_switch_thumb_color_on" /> <!-- Thumb color when OFF -->
+        </shape>
+    </item>
+</selector>

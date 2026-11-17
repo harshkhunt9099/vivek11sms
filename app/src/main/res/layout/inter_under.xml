@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_above="@+id/nativeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/back"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_15sdp"/>
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:text="Hd Video"
+                    android:textSize="@dimen/_14sdp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/dm_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:minHeight="@dimen/_150sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:id="@+id/image"
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/hint_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/pt_regular"
+                android:text="Experience Ultra-Fast Full\nHD Downloads."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textSize="@dimen/_10sdp"
+                android:textColor="#3C3C3C"
+                android:fontFamily="@font/pt_regular"
+                android:layout_gravity="center_horizontal"
+                android:text="Experience Ultra-Fast Full\nHD Downloads."
+                android:id="@+id/hint_text1"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_above="@+id/next"
+        android:id="@+id/nativeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/next"
+        android:backgroundTint="#1C73E6"
+        android:background="@drawable/select_border_bg"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:adjustViewBounds="true"
+        android:text="NEXT"
+        android:textSize="@dimen/_15sdp"
+        android:fontFamily="@font/dm_bold"
+        android:textAlignment="center"
+        android:padding="@dimen/_10sdp"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

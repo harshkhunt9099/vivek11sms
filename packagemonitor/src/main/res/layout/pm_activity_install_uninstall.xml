@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/pm_white"
+    tools:context="Codebizz_activity.Codebizz_InstallUninstallActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:animateLayoutChanges="true"
+        app:layout_constraintBottom_toTopOf="@id/flBottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivTopBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pm_bg_install_top"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:src="@drawable/pm_ic_setting"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/viewBottomBg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="-80dp"
+            android:background="@drawable/pm_bg_top_round_corner_32"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivTopBanner" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTypeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/sf_ui_text_bold"
+            android:text="@string/pm_app_installed"
+            android:textColor="@color/pm_black"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvTypeDescription"
+            app:layout_constraintStart_toStartOf="@id/tvTypeDescription" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTypeDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="30dp"
+            android:drawableStart="@drawable/pm_ic_secure"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/sf_ui_text_regular"
+            android:gravity="center_vertical"
+            android:text="@string/pm_this_app_secure_to_use"
+            android:textColor="@color/pm_text_green"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toTopOf="@id/viewBottomBg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/groupType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:constraint_referenced_ids="tvTypeDescription,tvTypeTitle" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="-30dp"
+            android:fontFamily="@font/sf_ui_text_bold"
+            android:text="@string/pm_installing"
+            android:textColor="@color/pm_black"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toTopOf="@+id/lottieHorizontalProgress"
+            app:layout_constraintStart_toStartOf="@id/lottieHorizontalProgress" />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieHorizontalProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="-10dp"
+            app:layout_constraintBottom_toTopOf="@id/viewBottomBg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/pm_loading" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/groupProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="tvHeading,lottieHorizontalProgress" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clInstallView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/viewBottomBg">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivAppLogo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/pm_lightTransparent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/RoundCornerImageView20" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvAppName"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/sf_ui_text_semibold"
+                android:gravity="bottom"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Gallery"
+                android:textColor="@color/pm_hover"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@id/tvAppSize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ivAppLogo"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvAppSize"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/sf_ui_text_medium"
+                android:gravity="top"
+                android:text="Size: 390 MB"
+                android:textColor="@color/pm_text_grey"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ivAppLogo"
+                app:layout_constraintTop_toBottomOf="@id/tvAppName" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clUninstallView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/viewBottomBg">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivUninstallLogo"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:src="@drawable/pm_ic_clean_junk"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvUninstallTitle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/sf_ui_text_semibold"
+                android:gravity="bottom"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/pm_cleaning_junk_files"
+                android:textColor="@color/pm_black"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@id/tvUninstallDesc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ivUninstallLogo"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvUninstallDesc"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/sf_ui_text_regular"
+                android:gravity="top"
+                android:text="@string/pm_storage_optimized_90mb_freed"
+                android:textColor="@color/pm_black"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ivUninstallLogo"
+                app:layout_constraintTop_toBottomOf="@id/tvUninstallTitle" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/cardBarrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="clInstallView,clUninstallView" />
+
+        <FrameLayout
+            android:id="@+id/nativeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginVertical="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardBarrier" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/flBottom"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:animateLayoutChanges="true"
+        android:background="@color/pm_white"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/btnOpenDone"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/pm_bg_medium_template_cta_btn"
+            android:backgroundTint="@color/pm_green"
+            android:fontFamily="@font/sf_ui_text_medium"
+            android:gravity="center"
+            android:text="@string/pm_open"
+            android:textColor="@color/pm_white"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+package com.zone.messanger.text.PANDA_ads
+
+enum class NativeType {
+    SMALL_NATIVE,
+    LARGE_NATIVE,
+    LARGE_NATIVE_TOP_MEDIAVIEW,
+    FULL_SCREEN_NATIVE,
+    LARGE_NATIVE_LAUNCHER_SIDE_PAGE,
+    SMALL_NATIVE_BANNER,
+    LARGE_NATIVE_BANNER,
+}

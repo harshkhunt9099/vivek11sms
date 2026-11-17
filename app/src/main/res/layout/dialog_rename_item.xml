@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rename_item_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <com.zone.messanger.text.Views.MyTextInputLayout
+        android:id="@+id/rename_item_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lc_label">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/rename_item_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:textSize="@dimen/lc_bigger_text_size" />
+
+    </com.zone.messanger.text.Views.MyTextInputLayout>
+</FrameLayout>

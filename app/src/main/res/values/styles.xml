@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="MyTransparentButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="background">@drawable/lc_transparent_button</item>
+        <item name="android:background">@drawable/lc_transparent_button</item>
+    </style>
+
+    <style name="TopPopupMenu.Overflow.Dark" parent="@style/Widget.MaterialComponents.PopupMenu.Overflow">
+        <item name="android:popupBackground">@drawable/lc_top_popup_menu_bg_dark</item>
+    </style>
+
+    <style name="AppCompat.ActionMode" parent="@style/Widget.Material3.ActionMode">
+        <item name="background">@drawable/lc_actionmenu_background</item>
+        <item name="backgroundSplit">?attr/actionModeSplitBackground</item>
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle</item>
+        <item name="closeItemLayout">@layout/abc_action_mode_close_item_material</item>
+    </style>
+
+
+    <style name="RadioTextTheme">
+        <item name="android:fontFamily">@font/sfuitext_medium</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/lc_selector_radio_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:button">@null</item>
+        <item name="android:foreground">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:buttonTint">@android:color/transparent</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+
+    <style name="CornerRadius" parent="">
+        <item name="cornerSize">20%</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+
+    <style name="AppTheme.ActionBar.TitleTextStyle">
+        <item name="android:textSize">@dimen/lc_actionbar_text_size</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:outlineProvider">none</item>
+    </style>
+
+    <style name="Dialog.EdgeToEdge2" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/nativeAdBg</item>
+        <item name="android:statusBarColor">@color/nativeAdBg</item>
+        <item name="android:navigationBarColor">@color/nativeAdBg</item>
+    </style>
+
+    <style name="AppTheme.Base.System" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/you_primary_color</item>
+        <item name="colorPrimaryDark">@color/you_primary_dark_color</item>
+        <item name="colorAccent">@color/you_primary_color</item>
+        <item name="colorPrimaryContainer">@color/you_primary_color</item>
+        <item name="colorOnPrimaryContainer">@color/you_neutral_text_color</item>
+        <item name="colorSecondaryContainer">@color/you_primary_color</item>
+        <item name="colorOnSecondaryContainer">@color/you_neutral_text_color</item>
+        <item name="colorTertiaryContainer">@color/you_primary_color</item>
+        <item name="colorOnTertiaryContainer">@color/you_neutral_text_color</item>
+        <item name="colorSurfaceVariant">@color/you_surface_color</item>
+        <item name="colorSurface">@color/you_dialog_background_color</item>
+        <item name="colorOnSurfaceVariant">@color/you_neutral_text_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="actionOverflowMenuStyle">@style/TopPopupMenuYou</item>
+        <item name="actionBarPopupTheme">@style/TopPopupMenuTextYou</item>
+        <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
+        <item name="actionModeStyle">@style/AppTheme.ActionModeYou</item>
+        <item name="bottomSheetDialogTheme">@style/AppTheme.Material3.BottomSheetDialogTheme</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
+        <item name="toolbarStyle">@style/AppToolbar</item>
+    </style>
+
+
+    <style name="TopPopupMenuYou" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:popupBackground">@drawable/lc_dialog_you_background</item>
+        <item name="android:dropDownHorizontalOffset">-10dp</item>
+        <item name="android:popupElevation">@dimen/lc_popup_menu_elevation</item>
+    </style>
+
+    <style name="TopPopupMenuTextYou">
+        <item name="android:textColor">@color/you_neutral_text_color</item>
+    </style>
+
+
+    <style name="AppTheme.ActionModeYou" parent="@style/Widget.Material3.ActionMode">
+        <item name="android:outlineProvider">none</item>
+        <item name="background">@color/you_contextual_status_bar_color</item>
+        <item name="actionOverflowButtonStyle">@style/TopPopupMenuYou</item>
+        <item name="actionBarPopupTheme">?attr/actionBarPopupTheme</item>
+    </style>
+
+    <style name="AppTheme.Material3.BottomSheetDialogTheme" parent="Theme.Material3.DayNight.BottomSheetDialog">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="bottomSheetStyle">@style/AppTheme.Material3.BottomSheetModalStyle</item>
+        <item name="elevationOverlayEnabled">true</item>
+        <item name="android:navigationBarColor">@color/you_status_bar_color</item>
+        <item name="android:navigationBarDividerColor" tools:targetApi="o_mr1">@color/you_status_bar_color</item>
+    </style>
+
+    <style name="AppTheme.Material3.BottomSheetModalStyle" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">@color/you_background_color</item>
+        <item name="shapeAppearanceOverlay">@style/BottomSheetShapeAppearanceOverlay</item>
+    </style>
+
+    <style name="AppToolbar" parent="Widget.Material3.Toolbar">
+        <item name="popupTheme">?attr/actionBarPopupTheme</item>
+    </style>
+
+    <style name="ActionMenuOverflowIcon" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/lc_md_grey_white</item>
+    </style>
+
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorPrimary">@color/you_dialog_background_color</item>
+        <item name="colorSecondary">@color/you_dialog_background_color</item>
+        <item name="colorSurface">@color/you_dialog_background_color</item>
+        <item name="colorOnSurface">@color/you_primary_color</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.App.Title.Text</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.App.Button</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.App.Button</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.App.Button</item>
+    </style>
+
+    <style name="BottomSheetShapeAppearanceOverlay">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeTopLeft">@dimen/corner_radius</item>
+        <item name="cornerSizeTopRight">@dimen/corner_radius</item>
+    </style>
+
+
+    <style name="MaterialAlertDialog.App" parent="MaterialAlertDialog.Material3">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="shapeAppearanceOverlay">@null</item>
+    </style>
+
+    <style name="MaterialAlertDialog.App.Title.Text" parent="MaterialAlertDialog.Material3.Title.Text">
+        <item name="android:textColor">@color/you_primary_color</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/you_primary_color</item>
+    </style>
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/lc_material_dialog_corner_radius</item>
+    </style>
+
+    <style name="AppTheme.Base.System.Light" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/you_primary_color</item>
+        <item name="colorPrimaryDark">@color/you_primary_dark_color</item>
+        <item name="colorAccent">@color/you_primary_color</item>
+        <item name="colorPrimaryContainer">@color/you_primary_color</item>
+        <item name="colorOnPrimaryContainer">@color/you_neutral_text_color</item>
+        <item name="colorSecondaryContainer">@color/you_primary_color</item>
+        <item name="colorOnSecondaryContainer">@color/you_neutral_text_color</item>
+        <item name="colorTertiaryContainer">@color/you_primary_color</item>
+        <item name="colorOnTertiaryContainer">@color/you_neutral_text_color</item>
+        <item name="colorSurfaceVariant">@color/you_surface_color</item>
+        <item name="colorSurface">@color/you_dialog_background_color</item>
+        <item name="colorOnSurfaceVariant">@color/you_neutral_text_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="actionOverflowMenuStyle">@style/TopPopupMenuYou</item>
+        <item name="actionBarPopupTheme">@style/TopPopupMenuTextYou</item>
+        <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
+        <item name="bottomSheetDialogTheme">@style/AppTheme.Material3.BottomSheetDialogTheme</item>
+        <item name="actionModeStyle">@style/AppTheme.ActionModeYou</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
+        <item name="toolbarStyle">@style/AppToolbar</item>
+    </style>
+
+    <style name="AppTheme.YouPopupMenuStyle" parent="ThemeOverlay.Material3.Dark">
+        <item name="android:popupMenuStyle">@style/AppTheme.YouPopupMenu</item>
+        <item name="popupMenuStyle">@style/AppTheme.YouPopupMenu</item>
+        <item name="android:textColorPrimary">@color/you_neutral_text_color</item>
+        <item name="android:textColorSecondary">@color/you_neutral_text_color</item>
+        <item name="android:textColor">@color/you_neutral_text_color</item>
+    </style>
+
+    <style name="AppTheme.YouPopupMenu" parent="Widget.Material3.PopupMenu">
+        <item name="android:popupBackground">@drawable/lc_popup_menu_bg_you</item>
+        <item name="android:popupElevation">@dimen/lc_popup_menu_elevation</item>
+    </style>
+
+
+    <style name="AppTheme.YouPopupMenuStyle.Light" parent="ThemeOverlay.Material3.Light">
+        <item name="android:popupMenuStyle">@style/AppTheme.YouPopupMenu</item>
+        <item name="popupMenuStyle">@style/AppTheme.YouPopupMenu</item>
+        <item name="android:textColorPrimary">@color/lc_dark_grey</item>
+        <item name="android:textColorSecondary">@color/lc_dark_grey</item>
+        <item name="android:textColor">@color/lc_dark_grey</item>
+    </style>
+
+    <style name="AppTheme.PopupMenuLightStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:popupMenuStyle">@style/AppTheme.PopupMenuLight</item>
+    </style>
+
+    <style name="AppTheme.PopupMenuLight" parent="Widget.Material3.PopupMenu">
+        <item name="android:popupBackground">@drawable/lc_top_popup_menu_bg_light</item>
+        <item name="android:popupElevation">@dimen/lc_popup_menu_elevation</item>
+    </style>
+
+    <style name="AppTheme.PopupMenuDarkStyle" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:popupMenuStyle">@style/AppTheme.PopupMenuDark</item>
+    </style>
+
+    <style name="AppTheme.PopupMenuDark" parent="Widget.Material3.PopupMenu">
+        <item name="android:popupBackground">@drawable/lc_top_popup_menu_bg_dark</item>
+        <item name="android:popupElevation">@dimen/lc_popup_menu_elevation</item>
+    </style>
+
+    <style name="AppTheme.BlackAndWhite.NoActionBar" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/lc_md_grey_black</item>
+        <item name="colorPrimaryDark">@color/lc_md_grey_black_dark</item>
+        <item name="colorAccent">@color/lc_md_grey_black</item>
+        <item name="android:colorControlHighlight">@color/lc_activated_item_foreground</item>
+        <item name="colorControlHighlight">@color/lc_activated_item_foreground</item>
+        <item name="android:colorControlActivated">@color/lc_md_grey_white</item>
+        <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="bottomSheetStyle">@style/BottomSheetModalStyle</item>
+        <item name="android:colorControlHighlight">@color/lc_activated_item_foreground</item>
+        <item name="colorControlHighlight">@color/lc_activated_item_foreground</item>
+    </style>
+
+    <style name="BottomSheetModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.BlackAndWhite.DarkTextColor" parent="AppTheme.BlackAndWhite">
+        <item name="android:textColorPrimary">@color/lc_theme_dark_background_color</item>
+    </style>
+
+    <style name="AppTheme.BlackAndWhite" parent="AppTheme.Base">
+        <item name="colorPrimary">@color/lc_md_grey_black</item>
+        <item name="colorPrimaryDark">@color/lc_md_grey_black_dark</item>
+        <item name="colorAccent">@color/lc_md_grey_black</item>
+        <item name="actionBarTheme">@style/LightActionBarItems</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">@color/lc_theme_light_background_color</item>
+        <item name="actionOverflowMenuStyle">@style/TopPopupMenu.Overflow.Dark</item>
+        <item name="android:itemTextAppearance">@style/AppTheme.BlackAndWhite.TextStyle</item>
+        <item name="android:colorControlHighlight">@color/lc_activated_item_foreground</item>
+        <item name="colorControlHighlight">@color/lc_activated_item_foreground</item>
+        <item name="android:colorControlActivated">@color/lc_md_grey_white</item>
+        <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="LightActionBarItems" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:textColorHint">@color/lc_hint_white</item>
+    </style>
+
+    <style name="AppTheme.BlackAndWhite.TextStyle">
+        <item name="android:textColor">@color/lc_md_grey_white</item>
+    </style>
+
+    <style name="AppTheme.Green_900_core" parent="AppTheme.Base.Core">
+        <item name="colorPrimary">@color/lc_md_green_900</item>
+        <item name="colorPrimaryDark">@color/lc_md_green_900_dark</item>
+        <item name="colorAccent">@color/lc_md_green_900</item>
+    </style>
+
+    <style name="AppTheme.Base.Core" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:colorControlHighlight">@color/lc_activated_item_foreground</item>
+        <item name="colorControlHighlight">@color/lc_activated_item_foreground</item>
+        <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionOverflowMenuStyle">@style/TopPopupMenu.Overflow.Dark</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="AppTheme.White" parent="AppTheme.Base">
+        <item name="colorPrimary">@color/lc_md_grey_white</item>
+        <item name="colorPrimaryDark">@color/lc_md_grey_white_dark</item>
+        <item name="colorAccent">@color/lc_md_grey_white</item>
+        <item name="actionBarTheme">@style/DarkActionBarItems</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColorPrimary">@color/lc_theme_dark_background_color</item>
+        <item name="actionOverflowMenuStyle">@style/TopPopupMenu.Overflow.Light</item>
+        <item name="android:itemTextAppearance">@style/AppTheme.White.TextStyle</item>
+        <item name="android:colorControlHighlight">@color/lc_activated_item_foreground</item>
+        <item name="colorControlHighlight">@color/lc_activated_item_foreground</item>
+        <item name="android:colorControlActivated">@color/lc_dark_grey</item>
+        <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="DarkActionBarItems" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorAccent">@color/lc_dark_grey</item>
+        <item name="android:textColorHint">@color/lc_hint_black</item>
+    </style>
+
+    <style name="TopPopupMenu.Overflow.Light" parent="@style/Widget.MaterialComponents.PopupMenu.Overflow">
+        <item name="android:popupBackground">@drawable/lc_top_popup_menu_bg_light</item>
+    </style>
+
+    <style name="AppTheme.White.TextStyle">
+        <item name="android:textColor">@color/lc_dark_grey</item>
+    </style>
+
+
+    <style name="AppTheme.White.LightTextColor" parent="AppTheme.White">
+        <item name="android:textColorPrimary">@color/lc_theme_light_background_color</item>
+    </style>
+
+
+    <style name="AppTheme.White.NoActionBar" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/lc_md_grey_white</item>
+        <item name="colorPrimaryDark">@color/lc_md_grey_white_dark</item>
+        <item name="colorAccent">@color/lc_md_grey_white</item>
+        <item name="android:colorControlHighlight">@color/lc_activated_item_foreground</item>
+        <item name="colorControlHighlight">@color/lc_activated_item_foreground</item>
+        <item name="android:colorControlActivated">@color/lc_dark_grey</item>
+        <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="TabTextStyle" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/sfuitext_medium</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="SelectedTabTextStyle" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/sfuitext_medium</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="DialogAnimationWallpaper">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="CircleImageStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+    <style name="TextStyle" />
+
+    <style name="TextStyle.Regular" parent="TextStyle">
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TextStyle.Medium" parent="TextStyle">
+        <item name="android:fontFamily">@font/manrope_medium</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TextStyle.SemiBold" parent="TextStyle">
+        <item name="android:fontFamily">@font/manrope_semi_bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TextStyle.Bold" parent="TextStyle">
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="fontWeight">700</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+
+
+</resources>

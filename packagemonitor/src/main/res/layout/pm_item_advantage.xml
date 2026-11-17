@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_ui_text_medium"
+        android:includeFontPadding="false"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/pm_black"
+        android:layout_marginEnd="10dp"
+        android:text="•" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvAdvantageTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_ui_text_medium"
+            android:includeFontPadding="false"
+            android:text="Advantage Title"
+            android:textColor="@color/pm_black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvAdvantageDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/sf_ui_text_regular"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="2dp"
+            android:text="Advantage description text"
+            android:textColor="#696969"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/search_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:paddingStart="@dimen/lc_activity_margin"
+        android:paddingTop="@dimen/lc_medium_margin"
+        android:paddingEnd="@dimen/lc_activity_margin"
+        android:paddingBottom="@dimen/lc_medium_margin">
+
+        <RelativeLayout
+            android:id="@+id/toolbar_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lc_search_menu_background"
+            android:focusableInTouchMode="true"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/top_toolbar_search_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/lc_search"
+                android:paddingStart="@dimen/lc_activity_margin"
+                android:paddingEnd="0dp"
+                android:src="@drawable/lc_ic_search_vector" />
+
+            <EditText
+                android:id="@+id/top_toolbar_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/ivSetting"
+                android:layout_toEndOf="@+id/top_toolbar_search_icon"
+                android:background="@null"
+                android:ellipsize="end"
+                android:gravity="start|center_vertical"
+                android:hint="@string/lc_search"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingStart="@dimen/lc_activity_margin"
+                android:paddingEnd="0dp"
+                android:singleLine="true"
+                android:textSize="@dimen/lc_big_text_size" />
+
+            <ImageView
+                android:id="@+id/ivSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="5dp"
+                android:src="@drawable/lc_ic_setting" />
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/top_toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/lc_small_margin"
+                app:titleTextAppearance="@style/AppTheme.ActionBar.TitleTextStyle" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+</merge>

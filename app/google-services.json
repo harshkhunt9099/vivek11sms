@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "526326228926",
+    "project_id": "sms-12-6ac9f",
+    "storage_bucket": "sms-12-6ac9f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526326228926:android:dfba35f3750776b044bbef",
+        "android_client_info": {
+          "package_name": "com.zone.messanger.text"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcrgBNNNCVh0336Z_M6y6KJTpRYzlyWLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

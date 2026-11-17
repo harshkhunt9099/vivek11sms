@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_banner_shimmer">62dp</dimen>
+
+    <dimen name="lc_launcher_icon_size">55dp</dimen>
+    <dimen name="lc_long_press_anchor_button_offset_y">50dp</dimen>
+    <dimen name="lc_widget_preview_size">140dp</dimen>
+    <dimen name="lc_icon_side_margin">10dp</dimen>
+    <dimen name="lc_resize_frame_dot_radius">8dp</dimen>
+    <dimen name="lc_move_gesture_threshold">20dp</dimen>
+    <dimen name="lc_page_indicator_stroke_width">1dp</dimen>
+    <dimen name="lc_tiny_margin">2dp</dimen>
+    <dimen name="lc_small_margin">4dp</dimen>
+    <dimen name="lc_medium_margin">8dp</dimen>
+    <dimen name="lc_normal_margin">12dp</dimen>
+    <dimen name="lc_activity_margin">16dp</dimen>
+    <dimen name="lc_bigger_margin">20dp</dimen>
+    <dimen name="lc_material_dialog_corner_radius">28dp</dimen>
+    <dimen name="lc_bottom_sheet_corner_radius">24dp</dimen>
+    <dimen name="lc_dragselect_hotspot_height">56dp</dimen>
+    <dimen name="lc_smaller_text_size">12sp</dimen>
+    <dimen name="lc_medium_text_size">15sp</dimen>
+    <dimen name="lc_bigger_text_size">16sp</dimen>
+    <dimen name="lc_big_text_size">18sp</dimen>
+    <dimen name="lc_actionbar_text_size">21sp</dimen>
+    <dimen name="lc_popup_menu_elevation">4dp</dimen>
+
+
+
+
+    <dimen name="resize_frame_dot_radius">8dp</dimen>
+    <dimen name="tiny_margin">2dp</dimen>
+    <dimen name="_minus12sdp">-12dp</dimen>
+    <dimen name="_minus15sdp">-15dp</dimen>
+    <dimen name="_minus5sdp">-5dp</dimen>
+    <dimen name="dialog_margin">20dp</dimen>
+    <dimen name="dialog_padding">24dp</dimen>
+    <dimen name="expandable_arrow_size">24dp</dimen>
+    <dimen name="expandable_content_padding">5dp</dimen>
+    <dimen name="expandable_header_padding">12dp</dimen>
+    <dimen name="lau_actionbar_text_size">21sp</dimen>
+    <dimen name="lau_activity_margin">16dp</dimen>
+    <dimen name="lau_big_margin">24dp</dimen>
+    <dimen name="lau_big_text_size">18sp</dimen>
+    <dimen name="lau_bigger_margin">20dp</dimen>
+    <dimen name="lau_bigger_text_size">16sp</dimen>
+    <dimen name="lau_bottom_sheet_corner_radius">24dp</dimen>
+    <dimen name="lau_dragselect_hotspot_height">56dp</dimen>
+    <dimen name="lau_launcher_icon_size">55dp</dimen>
+    <dimen name="lau_long_press_anchor_button_offset_y">50dp</dimen>
+    <dimen name="lau_material_dialog_corner_radius">28dp</dimen>
+    <dimen name="lau_medium_margin">8dp</dimen>
+    <dimen name="lau_move_gesture_threshold">20dp</dimen>
+    <dimen name="lau_normal_margin">12dp</dimen>
+    <dimen name="lau_small_margin">4dp</dimen>
+    <dimen name="lau_smaller_margin">6dp</dimen>
+    <dimen name="lau_smaller_text_size">12sp</dimen>
+    <dimen name="lau_widget_preview_size">140dp</dimen>
+
+    <!--thread activity-->
+    <dimen name="move_gesture_threshold">20dp</dimen>
+
+    <dimen name="icon_side_margin">10dp</dimen>
+    <dimen name="page_indicator_dot_radius">6dp</dimen>
+    <dimen name="page_indicator_stroke_width">1dp</dimen>
+    <dimen name="page_indicator_margin">6dp</dimen>
+
+    <dimen name="small_margin">4dp</dimen>
+    <dimen name="medium_margin">8dp</dimen>
+    <dimen name="normal_margin">12dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+
+    <dimen name="smaller_text_size">12sp</dimen>
+    <dimen name="medium_text_size">15sp</dimen>
+
+
+
+    <dimen name="avatar_size">52dp</dimen>
+    <dimen name="avatar_size_small">40dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="corner_radius">18dp</dimen>
+    <dimen name="bubble_max_width">280dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

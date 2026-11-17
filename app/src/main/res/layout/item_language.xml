@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/_7sdp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/border_bg1"
+    android:padding="12dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivFlag"
+        android:layout_width="@dimen/_28sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_flag_india"
+        app:shapeAppearanceOverlay="@style/CircleImageStyle" />
+
+    <TextView
+        android:id="@+id/tvLang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:text="English"
+        android:textColor="@color/lc_txt_color"
+        android:textSize="16sp" />
+
+</RelativeLayout>

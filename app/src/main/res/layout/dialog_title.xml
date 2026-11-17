@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zone.messanger.text.Views.MyTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_title_textview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif-light"
+    android:paddingStart="@dimen/lc_bigger_margin"
+    android:paddingTop="@dimen/lc_activity_margin"
+    android:paddingEnd="@dimen/lc_activity_margin"
+    android:textSize="@dimen/lc_actionbar_text_size"
+    android:textStyle="bold" />

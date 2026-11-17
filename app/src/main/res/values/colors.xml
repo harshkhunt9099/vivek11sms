@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="lc_black">#FF000000</color>
+    <color name="lc_white">#FFFFFFFF</color>
+    <color name="lc_md_green_900">#FF106D1F</color>
+    <color name="lc_color_primary">@color/lc_md_green_900</color>
+    <color name="lc_color_primary_dark">@color/lc_md_green_200_dark</color>
+    <color name="lc_md_green_200_dark">#89CA8D</color>
+    <color name="lc_color_accent">@color/lc_color_primary</color>
+    <color name="lc_pressed_item_foreground">#08000000</color>
+    <color name="lc_default_background_color">@color/lc_theme_dark_background_color</color>
+    <color name="lc_theme_dark_background_color">#161616</color>
+    <color name="lc_default_text_color">@color/lc_theme_dark_text_color</color>
+    <color name="lc_theme_dark_text_color">@color/lc_md_grey_200</color>
+    <color name="lc_md_grey_200">#EEEEEE</color>
+    <color name="lc_activated_item_foreground">#44888888</color>
+    <color name="lc_dark_grey">#FF333333</color>
+    <color name="lc_md_grey_white">#FFFFFF</color>
+    <color name="lc_divider_grey">#55808080</color>
+    <color name="lc_md_grey_black">#000000</color>
+    <color name="lc_light_grey_stroke">#40FFFFFF</color>
+    <color name="lc_hint_white">#99FFFFFF</color>
+    <color name="lc_default_primary_color">@color/lc_color_primary</color>
+    <color name="lc_default_app_icon_color">@color/lc_color_primary</color>
+    <color name="lc_default_accent_color">@color/lc_color_primary</color>
+    <color name="lc_default_widget_bg_color">#AA000000</color>
+    <color name="lc_default_widget_text_color">@color/lc_color_primary</color>
+    <color name="lc_semitransparent_navigation">#33000000</color>
+    <color name="lc_theme_light_background_color">@color/lc_md_grey_white</color>
+    <color name="lc_md_green_900_dark">#113E15</color>
+    <color name="lc_md_grey_black_dark">#000000</color>
+    <color name="lc_md_grey_white_dark">#DFDFDF</color>
+    <color name="lc_hint_black">#66000000</color>
+
+
+    <color name="you_status_bar_color">@color/system_accent1_50</color>
+    <color name="you_contextual_status_bar_color">@color/system_accent1_400</color>
+    <color name="you_background_color">@color/system_neutral1_10</color>
+    <color name="you_bottom_bar_color">@color/system_neutral1_50</color>
+    <color name="you_neutral_text_color">@color/system_accent1_900</color>
+    <color name="you_primary_color">@color/system_accent1_400</color>
+    <color name="you_primary_dark_color">@color/system_accent1_600</color>
+    <color name="you_dialog_background_color">@color/system_accent2_50</color>
+    <color name="you_surface_color">@color/system_neutral1_50</color>
+    <color name="you_selected_item_background_color">@color/system_accent2_100</color>
+    <color name="you_ripple_color">@color/system_neutral1_200</color>
+
+    <color name="system_accent1_50">#EEF0FF</color>
+    <color name="system_accent1_400">#7A90C8</color>
+    <color name="system_neutral1_10">#FEFBFF</color>
+    <color name="system_neutral1_50">#F1F0F7</color>
+    <color name="system_accent1_900">#001945</color>
+    <color name="system_accent1_600">#475D92</color>
+    <color name="system_accent2_50">#EEF0FF</color>
+    <color name="system_accent2_100">#DCE2F9</color>
+    <color name="system_neutral1_200">#C6C6CD</color>
+
+    <color name="lc_search_bar_background">#EFEFEF</color>
+    <color name="lc_hint_color">#676767</color>
+    <color name="lc_txt_color">#000000</color>
+    <color name="lc_app_bg">#FFFFFF</color>
+    <color name="lc_ic_color">#1E1E1E</color>
+    <color name="lc_black_5">#0C000000</color>
+    <color name="lc_subtext_color">#80000000</color>
+    <color name="lc_stroke_color_ic_next_arrow">#4F000000</color>
+    <color name="lc_switch_trac_color_on">@color/lc_hover_color</color>
+    <color name="lc_switch_thumb_color_on">#FFFFFF</color>
+    <color name="lc_switch_track_color">#C5C5C5</color>
+
+    <color name="lc_bg_home_screen_setting">#FBFBFB</color>
+    <color name="lc_black_10">#1A000000</color>
+    <color name="lc_dialog_bg_launcher">#FFFFFF</color>
+    <color name="lc_dialog_text_color_checked">#1E1E1E</color>
+    <color name="lc_dialog_text_color_unchecked">#807B7B</color>
+    <color name="lc_dialog_ic_checked">#000000</color>
+    <color name="lc_dialog_ic_unchecked">#807B7B</color>
+    <color name="lc_dialog_cancel_bg_color">#E8E8E8</color>
+    <color name="lc_dialog_cancel_text_color">#595959</color>
+    <color name="lc_grey_line">#20000000</color>
+    <color name="lc_permission_rounded_bg">#F3F8F7</color>
+    <color name="lc_overlay_dialog_bg_start">#FFFFFF</color>
+    <color name="lc_overlay_dialog_bg_end">#FFFFFF</color>
+    <color name="lc_tab_selected_text_color">#FFFFFF</color>
+    <color name="lc_tab_unselected_text_color">#595959</color>
+    <color name="lc_tab_bg_unselected_color">#F5F5F5</color>
+    <color name="lc_wallpaper_shimmer_color">#D9D9D9</color>
+
+    //TODO Change According your hover color
+    <color name="lc_hover_color_18">#2E1a73e8</color>
+    <color name="lc_hover_color">#1C73E6</color>
+
+    //ads color
+    <color name="native_shimmer_color">#EAECFD</color>
+    <color name="lightTransparent">#20000000</color>
+    <color name="nativeAdBorder">#CCCCCCCC</color>
+    <color name="dark_grey_ad">#6B7C7C7C</color>
+    <color name="adPrimaryTxtColor">#000000</color>
+    <color name="gnt_blue">#1C73E6</color>
+    <color name="bannerAdBg">#FFFFFF</color>
+    <color name="bannerAdBorder">#CCCCCCCC</color>
+    <color name="nativeAdBg">#FFFFFF</color>
+    <color name="native_shimmer_custom_color">#F1B4B3B3</color>
+    <color name="nativeAdBorderLoader">#D1EBEBEB</color>
+    <color name="sponsor_text_color">#8A8A8A</color>
+    <color name="nativeAdBtnColor">#02AD8A</color>
+    <color name="gnt_white">#FFFFFF</color>
+
+
+    <color name="colorPrimary">#3B93FF</color>
+    <color name="colorAccent">#36ABFF</color>
+    <color name="textLight">#595959</color>
+    <color name="textColor">#878787</color>
+    <color name="view">#1AE6E6E6</color>
+    <color name="pressed_state">#1A000000</color>
+
+    <color name="app_blue">#0C193A</color>
+    <color name="app_bluelight">#800C193A</color>
+    <color name="card">#F9F9F9</color>
+
+
+
+
+
+    <!--    Message-->
+
+    <color name="primary">#1C73E6</color>
+    <color name="primary_dark">#1C73E6</color>
+    <color name="primary_light">#1C73E6</color>
+    <color name="accent">#1C73E6</color>
+
+    <color name="background">#F4F7F5</color>
+    <color name="surface">#FFFFFF</color>
+
+    <color name="text_primary">#17202A</color>
+    <color name="text_secondary">#6B7680</color>
+    <color name="text_hint">#9AA5B1</color>
+    <color name="divider">#E7EBE8</color>
+
+    <color name="bubble_sent">#DCF4DC</color>
+    <color name="bubble_sent_border">#C3E8C3</color>
+    <color name="bubble_received">#FFFFFF</color>
+    <color name="bubble_received_border">#E6E9EC</color>
+
+    <color name="unread_badge">#1C73E6</color>
+    <color name="chip_selected">#1C73E6</color>
+    <color name="chip_unselected">#EEF2EF</color>
+    <color name="online_green">#2ECC71</color>
+    <color name="error_red">#E53935</color>
+
+    <color name="avatar_1">#1C73E6</color>
+    <color name="avatar_2">#1C73E6</color>
+    <color name="avatar_3">#1C73E6</color>
+    <color name="avatar_4">#1C73E6</color>
+    <color name="avatar_5">#1C73E6</color>
+    <color name="avatar_6">#1C73E6</color>
+    <color name="avatar_7">#1C73E6</color>
+    <color name="avatar_8">#1C73E6</color>
+
+
+</resources>

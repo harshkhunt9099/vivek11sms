@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_preview_holder"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/lc_activity_margin">
+
+    <ImageView
+        android:id="@+id/widget_image"
+        android:layout_width="@dimen/lc_widget_preview_size"
+        android:layout_height="@dimen/lc_widget_preview_size"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/lc_widget_preview_background"
+        android:padding="@dimen/lc_normal_margin"
+        android:scaleType="centerInside"
+        tools:src="@mipmap/logo" />
+
+    <com.zone.messanger.text.Views.MyTextView
+        android:id="@+id/widget_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/widget_image"
+        android:layout_alignStart="@+id/widget_image"
+        android:layout_alignEnd="@+id/widget_image"
+        android:layout_marginTop="@dimen/lc_small_margin"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textSize="@dimen/lc_smaller_text_size"
+        tools:text="Calendar" />
+
+    <com.zone.messanger.text.Views.MyTextView
+        android:id="@+id/widget_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/widget_title"
+        android:layout_alignStart="@+id/widget_image"
+        android:layout_alignEnd="@+id/widget_image"
+        android:alpha="0.5"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textSize="@dimen/lc_smaller_text_size"
+        tools:text="1 x 1" />
+
+</RelativeLayout>

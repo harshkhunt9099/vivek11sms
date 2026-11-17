@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pm_white"
+    android:orientation="vertical"
+    tools:context=".Codebizz_activity.Codebizz_PackageMonitorSettingActivity">
+
+    <RelativeLayout
+        android:id="@+id/mainRel"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:src="@drawable/pm_main_back" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="15dp"
+            android:layout_toEndOf="@+id/imgBack"
+            android:fontFamily="@font/sf_ui_text_medium"
+            android:includeFontPadding="false"
+            android:text="@string/pm_title_package_install_scan"
+            android:textColor="@color/pm_black"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/main_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/pm_line_color" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/sf_ui_text_medium"
+                android:includeFontPadding="false"
+                android:text="@string/pm_we_monitor_app_installs_and_removals_to_keep_your_device_clean_and_optimized"
+                android:textColor="@color/pm_black"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/llAdvantages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="15dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKeepOn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/pm_button_selected"
+            android:fontFamily="@font/sf_ui_text_medium"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:padding="15dp"
+            android:text="@string/pm_alright_keep_it_on"
+            android:textColor="@color/pm_white"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTurnOff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pm_button_unselected"
+            android:fontFamily="@font/sf_ui_text_medium"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:padding="15dp"
+            android:text="@string/pm_very_biased_fine_still_i_want_to_turn_off"
+            android:textColor="@color/pm_black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

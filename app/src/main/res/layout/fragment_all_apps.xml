@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zone.messanger.text.Fragments.AllAppsFragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/all_apps_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_above="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.zone.messanger.text.Views.MySearchMenu
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:applyWindowInsets="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/search_bar"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:background="@color/lc_search_bar_background"
+                android:orientation="horizontal"
+                android:paddingVertical="10dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/lc_ic_update" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:lineSpacingExtra="3dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sfuitext_medium"
+                    android:includeFontPadding="false"
+                    android:text="@string/lc_a_new_version_is_available_with_better_performance_and_improvements"
+                    android:textColor="@color/lc_txt_color"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="10dp"
+                    android:backgroundTint="@color/lc_hover_color"
+                    android:fontFamily="@font/sfuitext_medium"
+                    android:includeFontPadding="false"
+                    android:text="@string/lc_update"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    app:cornerRadius="50dp" />
+
+            </LinearLayout>
+
+            <com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller
+                android:id="@+id/all_apps_fastscroller"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:fastScrollEnabled="true">
+
+                <com.zone.messanger.text.Views.MyRecyclerView
+                    android:id="@+id/all_apps_grid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipToPadding="false"
+                    android:fadingEdgeLength="50dp"
+                    android:requiresFadingEdge="vertical"
+                    app:layoutManager=".Views.MyGridLayoutManager"
+                    app:spanCount="@integer/lc_portrait_column_count" />
+
+            </com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller>
+
+
+        </LinearLayout>
+
+        <com.zone.messanger.text.Views.MyTextView
+            android:id="@+id/no_results_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/search_bar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/lc_bigger_margin"
+            android:alpha="0.8"
+            android:gravity="center"
+            android:paddingLeft="@dimen/lc_activity_margin"
+            android:paddingRight="@dimen/lc_activity_margin"
+            android:text="@string/lc_no_items_found"
+            android:textSize="@dimen/lc_bigger_text_size"
+            android:textStyle="italic"
+            android:visibility="gone" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/a"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:id="@+id/bannerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_1sdp"
+            android:background="#21FFFFFF"
+            android:minHeight="@dimen/height_banner_shimmer" />
+
+    </RelativeLayout>
+
+</com.zone.messanger.text.Fragments.AllAppsFragment>

@@ -1,0 +1,774 @@
+<resources>
+    <string name="app_name">Messages Text Text</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ad_attribution" translatable="false">Ad</string>
+
+    <string name="splash_name">Messenger SMS</string>
+    <string name="messenger">Messenger</string>
+    <string name="launcher_desc">Set Messenger as your default for a faster &amp; private experience</string>
+    <string name="default_home_app">Default Home App</string>
+    <string name="system_launcher">System Launcher</string>
+    <string name="try_again">Try Again</string>
+    <string name="trey_again_dialog_desc">Setting Messenger as default i not Completed, try again?</string>
+    <string name="search">Search</string>
+    <string name="setup_not_complete">Setup Not Complete</string>
+    <string name="set_sms_launcher_as_default_launcher">Set SMS Launcher as Default launcher.</string>
+
+    <string name="tools">Tools</string>
+    <string name="ai_email_writer_generator">Ai Email Writer</string>
+    <string name="videodownloader">Downloader</string>
+    <string name="faceover_ai_face_swap">FaceOver</string>
+    <string name="search_engine">Search Engine</string>
+    <string name="apply">Apply</string>
+    <string name="google_default">Google(Default)</string>
+    <string name="yahoo">Yahoo</string>
+    <string name="bing">Bing</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="version">Version</string>
+    <string name="swipe_right">Swipe Right</string>
+
+
+    <string name="lc_error">Error: %s</string>
+    <string name="lc_app_info">App info</string>
+    <string name="lc_touch_hold_widget">Long press the widget and drag it on your home screen</string>
+    <string name="lc_uninstall">Uninstall</string>
+    <string name="lc_widget_too_big">Widget is too big for current home screen size</string>
+    <string name="lc_no_items_found">No items found.</string>
+    <string name="lc_resize">Resize</string>
+    <string name="lc_rename">Rename</string>
+    <string name="lc_remove">Remove</string>
+    <string name="lc_label">Label</string>
+    <string name="lc_shortcut">Shortcut</string>
+    <string name="lc_unknown_error_occurred">An unknown error occurred</string>
+    <string name="lc_value_cannot_be_empty">Value cannot be empty</string>
+    <string name="lc_ok">OK</string>
+    <string name="lc_cancel">Cancel</string>
+    <string name="lc_folder">Folder</string>
+    <string name="lc_search">Search</string>
+    <string name="lc_settings">Settings</string>
+    <string name="lc_widgets">Widgets</string>
+    <string name="lc_wallpapers">Wallpapers</string>
+    <string name="lc_set_as_default">Set as default</string>
+    <string name="lc_no_app_found">No valid app found</string>
+    <string name="lc_search_here">Search here</string>
+    <string name="lc_home_screen">Home Screen</string>
+    <string name="lc_set_grid_icon_layout_dock_setting_and_more">Set Grid, Icon Layout, Dock Setting and More</string>
+    <string name="lc_app_drawer">App Drawer</string>
+    <string name="lc_set_layout_style_opening_gesture_and_more">Set Layout, Style, Opening Gesture, and More</string>
+    <string name="lc_search_engine_drawer_search_bar_icons">Search Engine, Drawer Search bar, Icons</string>
+    <string name="lc_gestures">Gestures</string>
+    <string name="lc_double_tap_tap_amp_hold_swipe_down"><![CDATA[Double Tap, Tap & Hold, Swipe Down]]></string>
+    <string name="lc_navigation_bar">Navigation Bar</string>
+    <string name="lc_control_navigation_buttons_visibility">Control navigation buttons visibility</string>
+    <string name="lc_double_tap">Double Tap</string>
+    <string name="lc_tap_amp_hold"><![CDATA[Tap & Hold]]></string>
+    <string name="lc_home_button">Home Button</string>
+    <string name="lc_back_button">Back Button</string>
+    <string name="lc_preview">Preview</string>
+    <string name="lc_google">Google</string>
+    <string name="lc_play_store">Play Store</string>
+    <string name="lc_youtube">YouTube</string>
+    <string name="lc_gmail">Gmail</string>
+    <string name="lc_icons">Icons</string>
+    <string name="lc_labels">Labels</string>
+    <string name="lc_hide_app_names">Hide app Names</string>
+    <string name="lc_text_size">Text Size</string>
+    <string name="lc_icon_size">Icon Size</string>
+    <string name="lc_search_engine">Search Engine</string>
+    <string name="lc_google_default">Google (Default)</string>
+    <string name="lc_search_bar">Search Bar</string>
+    <string name="lc_drawer_search_bar">Drawer Search Bar</string>
+    <string name="lc_auto_open_keyboard">Auto-Open Keyboard</string>
+    <string name="lc_show_the_keyboard_automatically_when_opening_the_drawer_with_the_search_bar">Show the keyboard automatically when opening the drawer with the search bar</string>
+    <string name="lc_app_suggestions">App Suggestions</string>
+    <string name="lc_bing">Bing</string>
+    <string name="lc_duckduckgo">DuckDuckGo</string>
+    <string name="lc_apply">Apply</string>
+    <string name="lc_do_nothing">Do Nothing</string>
+    <string name="lc_open_home_screen_pop_up">Open home screen pop-up</string>
+    <string name="lc_open_app_drawer">Open app drawer</string>
+    <string name="lc_open_launcher_setting">Open launcher setting</string>
+    <string name="lc_open_global_search">Open global search</string>
+    <string name="lc_select">Select</string>
+    <string name="lc_no_item_found">No Item Found</string>
+    <string name="lc_swipe_right_to_go_back">Swipe Right to go back</string>
+    <string name="lc_tools">Tools</string>
+    <string name="lc_advertisement">Advertisement</string>
+    <string name="lc_set_message_to_your_default_home_app">Set Video Downloader to your default home app</string>
+    <string name="lc_set_now">Set Now</string>
+    <string name="lc_schedule_sms">Video Download</string>
+    <string name="lc_backup_sms">Video Player</string>
+    <string name="lc_update">Update</string>
+    <string name="lc_quick_home_access">Quick Home Access</string>
+    <string name="lc_you_can_change_this_anytime">You can change this anytime</string>
+    <string name="lc_important_notice">Important Notice</string>
+    <string name="lc_setup_now">Setup Now</string>
+    <string name="lc_dark_mode">Dark Mode</string>
+    <string name="lc_change_app_theme_to_dark">Change app theme to dark</string>
+    <string name="lc_done">Done</string>
+    <string name="lc_select_language">Select Language</string>
+    <string name="lc_a_new_version_is_available_with_better_performance_and_improvements">A new version is available with better performance and improvements.</string>
+    <string name="lc_check_your_internet_connection">Check your internet connection</string>
+    <string name="lc_wallpaper">Wallpaper</string>
+    <string name="lc_mail">Mail</string>
+    <string name="lc_files">Files</string>
+    <string name="lc_weather">Weather</string>
+    <string name="lc_set_as_lock_screen">Set as Lock Screen</string>
+    <string name="lc_set_as_both">Set as Both</string>
+    <string name="lc_set_as_home_screen">Set as Home Screen</string>
+    <string name="lc_wallpaper_applied_successfully">Wallpaper applied successfully</string>
+    <string name="lc_failed_to_apply_wallpaper">Failed to apply wallpaper</string>
+    <string name="lc_applying">Applying</string>
+    <string name="lc_privacy_policy"><u>Privacy Policy</u></string>
+    <string name="lc_package_monitor_setting">Package Monitor Setting</string>
+    <string name="lc_manage_install_amp_uninstall_alerts"><![CDATA[Manage install & uninstall Alerts]]></string>
+    <string name="lc_remaining">Remaining:\t</string>
+    <string name="lc_unlock_wallpaper">Unlock Wallpaper</string>
+    <string name="lc_watch_a_rewarded_ad_to_unlock_and_set_up_to_3_wallpapers_for_free">Watch a rewarded AD to unlock and set up to 3 wallpapers for free.</string>
+    <string name="lc_watch_ad_to_unlock">Watch AD to Unlock</string>
+    <string name="swipe_right_to_scan_all_video_downloader"><![CDATA[Swipe right to scan ALL VIDEO DOWNLOADER & PLAYER]]></string>
+
+
+    <string name="the_best_we_can_get">The best we can get</string>
+    <string name="thanks_for_your_support">Thanks for your support!</string>
+    <string name="we_would_be_very_grateful_if_you_can_rate_us">We would be very grateful if\nyou can rate us</string>
+    <string name="no_connection">No Connection</string>
+    <string name="no_internet_connection_found_check_your_connection_or_go_to_setting">No internet connection found. Check your connection or go to setting.</string>
+    <string name="wi_fi">Wi-Fi</string>
+    <string name="mobile_data">Mobile Data</string>
+
+    <!--    ======================================================================================================================-->
+    <string name="launcher_display_name">Message App</string>
+
+    <!-- Onboarding / Default Launcher -->
+    <string name="btn_continue">CONTINUE</string>
+    <string name="onboarding_app_title">ULTRA HD CAMERA &amp; HOME SCREEN</string>
+    <string name="onboarding_set_as_default">SET AS DEFAULT</string>
+    <string name="onboarding_default_desc">SET ULTRA HD CAMERA AS YOUR DEFAULT HOME APP TO ENABLE LAUNCHER FEATURES.</string>
+    <string name="privacy_policy_simple">Privacy Policy</string>
+    <string name="default_home_app_header">Default Home App</string>
+
+    <!-- Tutorial Overlays -->
+    <string name="tutorial_swipe_right">Swipe right to use the\nHD Camera quickly.</string>
+    <string name="tutorial_swipe_left">Swipe left to open your\ntools and app suggestions.</string>
+    <string name="tutorial_swipe_up">Swipe up to view all your apps.</string>
+
+    <!-- Home Screen -->
+    <string name="cancel">Cancel</string>
+    <string name="remove">Remove</string>
+    <string name="add_to_home">Add to Home</string>
+    <string name="menu_wallpapers">Wallpapers</string>
+    <string name="menu_widgets">Widgets</string>
+    <string name="menu_home_settings">Home settings</string>
+    <string name="menu_colors">Colors</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- App Drawer -->
+    <string name="search_apps_and_web">Search Apps and Web</string>
+    <string name="recent_apps">Recent Apps</string>
+    <string name="app_info">App info</string>
+    <string name="widgets">Widgets</string>
+    <string name="customize">Customize</string>
+    <string name="app_name_label">App Name</string>
+    <string name="hide_from_app_drawer">Hide from app drawer</string>
+    <string name="reset">Reset</string>
+    <string name="save">Save</string>
+    <string name="new_tab">New tab</string>
+    <string name="new_incognito_tab">New Incognito tab</string>
+    <string name="no_apps_found">No apps found</string>
+
+    <!-- Settings Main Screen -->
+    <string name="search_settings">Search settings</string>
+    <string name="section_home_and_apps">Home &amp; Apps</string>
+    <string name="setting_general">General</string>
+    <string name="setting_general_sub">Manage app icons</string>
+    <string name="setting_home_screen">Home screen</string>
+    <string name="setting_home_screen_sub">Grid, icons, feed</string>
+    <string name="setting_quick_look">Quick Look</string>
+    <string name="setting_quick_look_sub">What appears on home</string>
+    <string name="setting_app_drawer">App drawer</string>
+    <string name="setting_app_drawer_sub">Hidden apps, column count, icons</string>
+    <string name="section_controls_and_search">Controls &amp; Search</string>
+    <string name="setting_search_bar">Search bar</string>
+    <string name="setting_gestures">Gestures</string>
+    <string name="setting_gestures_sub">Taps and swipes</string>
+
+    <!-- General Settings -->
+    <string name="section_appearance">Appearance</string>
+    <string name="icon_shape">Icon shape</string>
+    <string name="theme">Theme</string>
+
+    <!-- Icon Shapes -->
+    <string name="shape_system">System</string>
+    <string name="shape_circle">Circle</string>
+    <string name="shape_hexagon">Hexagon</string>
+    <string name="shape_squircle">Squircle</string>
+    <string name="shape_square">Square</string>
+    <string name="shape_diamond">Diamond</string>
+    <string name="shape_arch">Arch</string>
+    <string name="shape_one_ui">One UI</string>
+    <string name="shape_wavy_square">Wavy Square</string>
+    <string name="shape_burst">Burst</string>
+
+    <!-- Themes -->
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System</string>
+
+    <!-- Home Screen Settings -->
+    <string name="section_live_preview">Live Preview</string>
+    <string name="section_icons">Icons</string>
+    <string name="icon_size">Icon size</string>
+    <string name="show_app_labels">Show app labels</string>
+    <string name="label_size">Label size</string>
+    <string name="section_general">General</string>
+    <string name="add_new_apps">Add new apps</string>
+    <string name="infinite_scroll">Infinite scroll</string>
+    <string name="infinite_scroll_sub">Swipe to loop between the first and last pages</string>
+    <string name="section_layout">Layout</string>
+    <string name="lock_home_screen">Lock home screen</string>
+    <string name="lock_home_screen_sub">Prevent layout changes</string>
+    <string name="page_indicators">Page Indicators</string>
+    <string name="page_indicators_sub">Show dots for page numbers</string>
+
+    <!-- Quick Look Settings -->
+    <string name="show_on_home_screen">Show on home screen</string>
+    <string name="widget_on_first_screen">widget on the first screen</string>
+    <string name="weather">Weather</string>
+    <string name="weather_sub">Display Current conditions &amp; temperature</string>
+    <string name="time">Time</string>
+    <string name="display_time">Display time</string>
+    <string name="date">Date</string>
+    <string name="date_sub">Day and month display</string>
+    <string name="time_format">Time Format</string>
+    <string name="time_format_system">Follow system</string>
+    <string name="time_format_12">12-hour format</string>
+    <string name="time_format_24">24-hour format</string>
+
+    <!-- App Drawer Settings -->
+    <string name="section_grid">Grid</string>
+    <string name="app_drawer_columns">App drawer columns</string>
+    <string name="row_height">Row height</string>
+    <string name="horizontal_padding">Horizontal padding</string>
+    <string name="hidden_apps">Hidden apps</string>
+    <string name="hidden_apps_count">%1$d apps</string>
+
+    <!-- Search Engine Settings -->
+    <string name="search_engine_title">Search Engine</string>
+    <string name="engine_google">Google (default)</string>
+    <string name="engine_yahoo">Yahoo</string>
+    <string name="engine_bing">Bing</string>
+    <string name="search_history_title">Recent Searches</string>
+    <string name="top_searches_title">Top Searches</string>
+    <string name="search_suggestions">Suggestions</string>
+    <string name="clear_all">Clear all</string>
+    <string name="speak_to_search">Speak to search</string>
+    <string name="search_with_engine">Search with %1$s</string>
+    <string name="trending_news">Top Stories</string>
+
+    <!-- Gestures Settings -->
+    <string name="double_tap">Double tap</string>
+    <string name="swipe_up">Swipe up</string>
+    <string name="swipe_down">Swipe down</string>
+    <string name="action_do_nothing">Do nothing</string>
+    <string name="action_open_notification">Open notification panel</string>
+    <string name="action_open_drawer">Open app drawer</string>
+    <string name="action_open_search">Open search</string>
+    <string name="action_open_app">Open app</string>
+    <string name="action_open_assistant">Open assistant</string>
+
+    <!-- Smart Feed / App Library -->
+    <string name="create_collage_title">Create Collage</string>
+    <string name="create_collage_sub">Combine photos with creative layouts.</string>
+    <string name="secure_vault_title">Secure Vault</string>
+    <string name="secure_vault_sub">Securely hide photos &amp; videos.</string>
+    <string name="folder_recently_added">Recently Added</string>
+    <string name="folder_social">Social</string>
+    <string name="folder_games">Games</string>
+    <string name="folder_utilities">Utilities</string>
+    <string name="folder_creativity">Creativity</string>
+    <string name="folder_productivity">Productivity</string>
+    <string name="battery">Battery</string>
+    <string name="charging">Charging</string>
+    <string name="discharging">Discharging</string>
+    <string name="storage">Storage</string>
+    <string name="storage_used">%1$s used</string>
+    <string name="storage_stats">%1$d%% used • %2$s free</string>
+    <string name="manage">Manage</string>
+    <string name="top_stories">Top Stories</string>
+    <string name="news_headline_1">Major technological breakthrough unlocks ultra fast on-device intelligence</string>
+    <string name="news_headline_2">Stunning aerospace engineering milestone achieved in newest global test</string>
+
+    <!-- Widgets List -->
+    <string name="search_widgets">Search</string>
+    <string name="widgets_count">%1$d widgets</string>
+    <string name="widgets_and_shortcuts">%1$d widgets, %2$d shortcuts</string>
+    <string name="widget_analogue_clock">Analogue clock</string>
+    <string name="widget_digital_clock">Digital clock</string>
+    <string name="widget_chrome_search">Chrome search</string>
+    <string name="widget_chrome_shortcuts">Chrome shortcuts</string>
+    <string name="widget_chrome_dino">Chrome Dino</string>
+    <string name="drawer_columns">Columns</string>
+    <string name="drawer_row_height">Row height</string>
+    <string name="drawer_horizontal_padding">Horizontal padding</string>
+    <string name="show_icon_labels">Show icon labels</string>
+    <string name="gesture_double_tap">Double tap</string>
+    <string name="gesture_swipe_up">Swipe up</string>
+    <string name="gesture_swipe_down">Swipe down</string>
+    <string name="select_all">Select all</string>
+    <string name="section_behavior">Behavior</string>
+    <string name="lock_layout">Lock layout</string>
+    <string name="quick_look_weather">Weather</string>
+    <string name="quick_look_time">Time</string>
+    <string name="quick_look_date">Date</string>
+    <string name="action_create_collage">Create Collage</string>
+    <string name="action_secure_vault">Secure Vault</string>
+    <string name="battery_title">Battery</string>
+    <string name="storage_title">Storage</string>
+    <string name="manage_storage">Manage</string>
+    <string name="menu_set_default_launcher">Set as default launcher</string>
+    <string name="menu_restart_launcher">Restart launcher</string>
+    <string name="no_widgets_available_for_app">No widgets available for this app</string>
+    <string name="browse_all_widgets_desc">You can browse all widgets available on your device</string>
+    <string name="browse_all_widgets">Browse All Widgets</string>
+    <string name="no_widgets_found">No widgets found</string>
+    <string name="no_widgets_found_desc">Try searching with a different term</string>
+    <string name="app_icons">App Icons</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="done">Done</string>
+
+    <!-- Call End Screen -->
+    <string name="private_number">Private Number</string>
+    <string name="call_duration_format">Duration : %1$s</string>
+    <string name="good_morning">Good Morning (%1$s)</string>
+    <string name="good_afternoon">Good Afternoon (%1$s)</string>
+    <string name="good_evening">Good Evening (%1$s)</string>
+    <string name="good_night">Good Night (%1$s)</string>
+    <string name="today_sun_rises_sets">Today, sun rises at 06:15 AM and sets at 06:45 PM</string>
+    <string name="unable_to_perform_action">Unable to perform action</string>
+    <string name="action_send_mail">Send Mail</string>
+    <string name="action_calendar">Calendar</string>
+    <string name="action_web">Web Search</string>
+    <string name="name_message">Messages Text Text</string>
+    <string name="add_caller_to_contacts">Add caller to contacts</string>
+    <string name="sorry_cant_talk">Sorry, I can\'t talk right now</string>
+    <string name="can_i_call_later">Can I call you later?</string>
+    <string name="on_my_way">I\'m on my way</string>
+    <string name="write_personal_message_hint">Write personal message...</string>
+    <string name="please_enter_message">Please enter a message</string>
+    <string name="no_messaging_app_found">No messaging app found</string>
+    <string name="create_reminder">Create Reminder</string>
+    <string name="remind_me_about_hint">Remind me about...</string>
+    <string name="select_date_time_hint">Select Date &amp; Time</string>
+    <string name="please_enter_reminder_title">Please enter a reminder title</string>
+    <string name="please_select_reminder_date_time">Please select reminder date and time</string>
+    <string name="reminder_created">Reminder created successfully</string>
+    <string name="failed_to_save_reminder">Failed to save reminder</string>
+    <string name="call_reminder">Call Reminder</string>
+    <string name="yes">Save</string>
+    <string name="no">Cancel</string>
+
+    <!-- Package Monitor Strings -->
+    <string name="installing_app">Installing App...</string>
+    <string name="scanning_security_performance">Scanning for security &amp; performance...</string>
+    <string name="installing_progress">Installing %1$d%%</string>
+    <string name="new_app_installed">New App Installed</string>
+    <string name="installing_verifying_package">Installing &amp; verifying package...</string>
+    <string name="app_installed_successfully">App Installed Successfully</string>
+    <string name="device_secured_app_scanned">Device secured! App scanned.</string>
+    <string name="ready_to_use_security_verified">Ready to use • Security verified</string>
+    <string name="app_uninstalled_successfully">App Uninstalled Successfully</string>
+    <string name="storage_optimized_space_freed">Storage optimized • Space freed</string>
+    <string name="app_uninstalled_detail">%1$s uninstalled • Storage &amp; memory cleaned</string>
+    <string name="open_app">Open App</string>
+    <string name="cannot_open_app">Cannot open app</string>
+    <string name="optimized_speed">Storage Optimized</string>
+    <string name="keeping_things_running_smoothly">Keeping device clean and fast</string>
+    <string name="privacy_security">Privacy &amp; Security</string>
+    <string name="call_end_screen">Call End Screen</string>
+    <string name="call_end_screen_desc">Show quick actions, reminders and dialer after phone calls</string>
+    <string name="package_monitor">App Install &amp; Uninstall Alerts</string>
+    <string name="package_monitor_desc">Show security scan on app install and cleanup alert on uninstall</string>
+    <string name="smart_utilities">CALL &amp; APP ASSISTANT</string>
+
+    <!-- Call Permission Rationale Dialog -->
+    <string name="call_permission_dialog_title">Phone Call Permission</string>
+    <string name="call_permission_dialog_desc">Allow phone call permission to automatically show caller summaries, reminders, and smart tools right after your calls.</string>
+    <string name="call_permission_feature_summary">Smart call summaries &amp; duration</string>
+    <string name="call_permission_feature_notes">Post-call reminders &amp; quick notes</string>
+    <string name="call_permission_continue">Continue</string>
+    <string name="call_permission_not_now">Not Now</string>
+
+    <!-- Setup Not Finished Banner -->
+    <string name="setup_not_finished">Set up not finished</string>
+    <string name="setup_not_finished_desc">Set as default launcher to continue</string>
+    <string name="continue_text">Continue</string>
+
+    <!-- Language Selection -->
+    <string name="select_your_language">Select Your Language</string>
+    <string name="next">Next</string>
+    <string name="language">Language</string>
+    <string name="app_language">App Language</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_tagline">Fast  •  Smart  •  Clean</string>
+    <string name="loading">Loading…</string>
+
+    <!-- Common / Actions -->
+    <string name="skip">Skip</string>
+    <string name="got_it">Got it</string>
+    <string name="resize">Resize</string>
+    <string name="move">Move</string>
+    <string name="resize_widget">Resize Widget</string>
+    <string name="select_grid_size">Select grid size for this widget:</string>
+    <string name="select_app">Select App</string>
+    <string name="choose_app_for_gesture">Choose an app to open with this gesture</string>
+    <string name="choose_shape_desc">Choose how your app icons are shaped</string>
+    <string name="gesture_shortcuts">GESTURE SHORTCUTS</string>
+    <string name="gestures_footer_desc">Perform gestures on the Home screen wallpaper or empty areas to quickly launch apps, open notifications, or access the app drawer.</string>
+    <string name="dialog_default_launcher_helper_msg">Select Crazy Launcher and tap Always to set it as your default launcher.</string>
+    <string name="tap_to_continue">Tap anywhere to continue</string>
+
+    <!-- Camera / Quick Tools -->
+    <string name="quick_camera_title">Ultra HD Camera</string>
+    <string name="tap_to_capture">TAP TO CAPTURE</string>
+    <string name="tap_to_launch_camera">Tap to Launch Ultra HD Camera</string>
+    <string name="snap_photos_sub">Snap photos &amp; videos right from your home screen</string>
+
+    <!-- Charging Animation Feature -->
+    <string name="charger_disconnected">Charger Disconnected</string>
+    <string name="close_caps">CLOSE</string>
+    <string name="fast_charging">Fast Charging</string>
+    <string name="battery_charged">Charged</string>
+    <string name="charging_animation">Charging Animation</string>
+    <string name="charging_animation_desc">Show animation screen when charger is connected or disconnected</string>
+
+    <!-- Message App Strings -->
+    <string name="app_version">Version %1$s</string>
+    <string name="splash_version">v%1$s</string>
+    <string name="title_default_sms">Set as Default SMS App</string>
+    <string name="desc_default_sms">To send and receive messages, set Messages Text Text as your default SMS app.</string>
+    <string name="btn_set_as_default">Set as Default</string>
+    <string name="txt_change_anytime">You can change this anytime</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="quick_home_access">Make Messages Text Text Your Default</string>
+    <string name="quick_home_header">Set as your default home</string>
+    <string name="quick_home_title">Quick Home Access</string>
+    <string name="quick_home_desc">Send and receive messages instantly, right from your home screen.</string>
+    <string name="feature_send_receive">Send &amp; receive SMS / MMS</string>
+    <string name="feature_fast_secure">Fast, private &amp; ad-free</string>
+    <string name="feature_notifications">Get instant message notifications</string>
+    <string name="category_all">All</string>
+    <string name="category_personal">Personal</string>
+    <string name="category_transaction">Transaction</string>
+    <string name="category_otps">OTPs</string>
+    <string name="category_offers">Offers</string>
+    <string name="btn_enable">Enable</string>
+    <string name="menu_inbox">Inbox</string>
+    <string name="menu_archived">Archived</string>
+    <string name="menu_scheduled">Scheduled</string>
+    <string name="menu_backup_restore">Backup and restore</string>
+    <string name="menu_blocking">Blocking</string>
+    <string name="menu_privacy_policy">Privacy Policy</string>
+    <string name="empty_inbox_title">Your conversations will appear here</string>
+    <string name="empty_archived_title">No archived conversations</string>
+    <string name="empty_scheduled_title">No scheduled messages</string>
+    <plurals name="scheduled_messages_count">
+        <item quantity="one">%d scheduled message</item>
+        <item quantity="other">%d scheduled messages</item>
+    </plurals>
+    <plurals name="archived_conversations_count">
+        <item quantity="one">%d archived conversation</item>
+        <item quantity="other">%d archived conversations</item>
+    </plurals>
+    <plurals name="blocked_numbers_count">
+        <item quantity="one">%d blocked number</item>
+        <item quantity="other">%d blocked numbers</item>
+    </plurals>
+    <string name="scheduled_banner_desc">Automatically send a message, at the exact moment you\'d like</string>
+    <string name="setting_delayed_sending">Delayed sending</string>
+    <string name="setting_delayed_sending_sub">No delay</string>
+    <string name="setting_swipe_actions">Swipe actions</string>
+    <string name="setting_swipe_actions_sub">Configure swipe actions for conversations</string>
+    <string name="setting_delivery_confirmations">Delivery confirmations</string>
+    <string name="setting_delivery_confirmations_sub">Confirm that messages were sent successfully</string>
+    <string name="setting_signature">Signature</string>
+    <string name="setting_signature_sub">Add a signature to the end of your messages</string>
+    <string name="setting_auto_delete">Delete old messages automatically</string>
+    <string name="setting_auto_delete_sub">Never</string>
+    <string name="setting_mms_long">Send long messages as MMS</string>
+    <string name="setting_mms_long_sub">If your longer text messages are failing to send, you can send them as MMS messages instead.</string>
+    <string name="setting_mms_compress">Auto-compress MMS attachments</string>
+    <string name="setting_mms_compress_sub">300KB</string>
+    <string name="setting_sync">Sync messages</string>
+    <string name="setting_sync_sub">Re-sync your messages with the native Android database</string>
+    <string name="never">Never</string>
+    <string name="type_message_hint">Type a message...</string>
+    <string name="setting_tap_to_customize">Tap to customize</string>
+    <string name="setting_notification_previews">Notification previews</string>
+    <string name="setting_wake_screen">Wake screen</string>
+    <string name="section_actions">Actions</string>
+    <string name="setting_button_1">Button 1</string>
+    <string name="setting_button_2">Button 2</string>
+    <string name="setting_button_3">Button 3</string>
+    <string name="backup_and_restore">Backup and restore</string>
+    <string name="restore">Restore</string>
+    <string name="select_a_backup">Select a backup</string>
+    <string name="set_folder">Set folder</string>
+    <string name="backup_location">Backup location</string>
+    <string name="currently_only_sms_is_supported_by_backup_and_restore_mms_support_and_scheduled_backups_will_be_coming_soon">Currently, only SMS is supported by Backup and Restore. MMS support and scheduled backups will be coming soon!</string>
+    <string name="backup_now">Backup now</string>
+    <string name="backing_up_messages">Backing up messages...</string>
+    <string name="blocked_numbers">Blocked Numbers</string>
+    <string name="no_blocked_numbers">No blocked numbers</string>
+    <string name="add_blocked_number">Add Blocked Number</string>
+    <string name="write_a_message">Write message...</string>
+    <string name="contacts">Contacts</string>
+    <string name="schedule">Schedule</string>
+    <string name="dialog_title_delete_chat">Delete Chat</string>
+    <string name="dialog_desc_delete_chat">Are you sure you want to delete this conversation? This action cannot be undone.</string>
+    <string name="dialog_title_delete_selected_chats">Delete Selected Chats</string>
+    <string name="dialog_desc_delete_selected_chats">Are you sure you want to delete the selected conversations? This action cannot be undone.</string>
+    <string name="dialog_title_delete_messages">Delete Selected Messages Text</string>
+    <string name="dialog_desc_delete_messages">Are you sure you want to delete the selected messages?</string>
+    <string name="dialog_title_clear_chat">Clear Chat</string>
+    <string name="dialog_desc_clear_chat">Are you sure you want to clear all messages in this conversation?</string>
+    <string name="dialog_title_shortcode_info">Shortcode Number</string>
+    <string name="dialog_desc_shortcode_info">This is a shortcode number used by automated services, businesses, or OTP providers. Reply capabilities may be limited.</string>
+    <string name="dialog_title_delete_scheduled">Delete Scheduled Message</string>
+    <string name="dialog_desc_delete_scheduled">Are you sure you want to delete this scheduled message?</string>
+    <string name="dialog_title_unblock_number">Unblock Number</string>
+    <string name="dialog_desc_unblock_number">Are you sure you want to unblock %1$s?</string>
+    <string name="dialog_title_auto_delete">Auto Delete Messages Text</string>
+    <string name="dialog_desc_auto_delete">Messages Text older than specified days will be deleted automatically</string>
+    <string name="dialog_title_signature">Signature</string>
+    <string name="dialog_desc_signature">Add a signature to the end of your messages</string>
+    <string name="dialog_title_delayed_sending">Delayed sending</string>
+    <string name="dialog_title_right_swipe">Right Swipe Action</string>
+    <string name="dialog_title_left_swipe">Left Swipe Action</string>
+    <string name="dialog_title_notification_previews">Notification previews</string>
+    <string name="clear">Clear</string>
+    <string name="unblock">Unblock</string>
+    <string name="number_of_days">Number of days</string>
+    <string name="tap_to_select_recipient">Tap to select recipient</string>
+    <string name="type_message_to_schedule">Type message to schedule...</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="pinned_chat">Pinned chat to top</string>
+    <string name="unpinned_chat">Unpinned chat</string>
+    <string name="action_undo">UNDO</string>
+    <string name="mark_as_read">Mark as Read</string>
+    <string name="mark_as_unread">Mark as Unread</string>
+    <string name="conversation_archived">Conversation archived</string>
+    <string name="items_selected">%1$d Selected</string>
+    <string name="item_selected_single">1 Selected</string>
+    <string name="no_messages_yet">No messages yet</string>
+    <string name="send_message_to_start_conversation">Send a message to start the conversation</string>
+    <string name="sim_slot">SIM %1$d</string>
+    <string name="sim_selected">Selected SIM %1$d (%2$s)</string>
+    <string name="recipient_to_prefix">To: %1$s</string>
+    <string name="status_sending">Sending…</string>
+    <string name="status_sent">%1$s • Sent</string>
+    <string name="status_failed">%1$s • Failed</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="message_deleted">Message deleted</string>
+    <string name="message_sending_cancelled">Message sending cancelled</string>
+    <string name="no_messages_found">No messages found</string>
+    <string name="new_conversation">New Conversation</string>
+    <string name="hint_type_name_or_phone">Type name or phone number…</string>
+    <string name="tap_to_start_new_chat">Tap to start a new chat</string>
+    <string name="grant_contact_permissions_or_type_phone">Grant contact permissions or type a phone number</string>
+    <string name="select_contact_to_block">Select Contact to Block</string>
+    <string name="select_recipient">Select Recipient</string>
+    <string name="no_contacts_match">No Contacts Match</string>
+    <string name="no_contacts_match_desc">Try searching for another name or enter a phone number</string>
+    <string name="block_number_format">Block %1$s</string>
+    <string name="schedule_to_format">Schedule to %1$s</string>
+    <string name="send_to_format">Send to %1$s</string>
+    <string name="action_none">None</string>
+    <string name="action_mark_read_unread">Mark read/unread</string>
+    <string name="right_swipe">Right swipe</string>
+    <string name="left_swipe">Left swipe</string>
+    <string name="swipe_action_archive">Archive</string>
+    <string name="swipe_action_delete">Delete</string>
+    <string name="btn_change">CHANGE</string>
+    <string name="auto_delete_after_days">After %1$d days</string>
+    <string name="seconds_3">3 seconds</string>
+    <string name="seconds_5">5 seconds</string>
+    <string name="seconds_10">10 seconds</string>
+    <string name="show_name_and_message">Show name and message</string>
+    <string name="preview_show_name">Show name</string>
+    <string name="preview_hide_contents">Hide contents</string>
+    <string name="mark_read">Mark read</string>
+    <string name="reply">Reply</string>
+    <string name="action_call">Call</string>
+    <string name="action_block">Block</string>
+    <string name="action_archive">Archive</string>
+    <string name="notification_new_message">New message</string>
+    <string name="contents_hidden">Contents hidden</string>
+    <string name="sender_you">You</string>
+    <string name="type_your_reply">Type your reply…</string>
+    <string name="unable_to_open_notification_settings">Unable to open notification settings</string>
+    <string name="edit_scheduled_message">Edit Scheduled Message</string>
+    <string name="schedule_new_message">Schedule New Message</string>
+    <string name="scheduled_message_deleted">Scheduled message deleted</string>
+    <string name="recipient_address_missing">Recipient address is missing</string>
+    <string name="please_enter_message_to_schedule">Please enter a message to schedule</string>
+    <string name="please_select_future_date_time">Please select a future date and time</string>
+    <string name="message_scheduled_for">Message scheduled for %1$s</string>
+    <string name="selected_folder">Selected Folder</string>
+    <string name="processing">Processing…</string>
+    <string name="restoring_messages">Restoring messages…</string>
+    <string name="backup_folder_location_set">Backup folder location set</string>
+    <string name="please_set_backup_folder_first">Please set a backup folder location first</string>
+    <string name="cannot_write_selected_folder">Cannot write to selected folder. Please re-select folder.</string>
+    <string name="failed_create_backup_file">Failed to create backup file</string>
+    <string name="failed_open_output_stream">Failed to open output stream</string>
+    <string name="backup_successful">Backup successful!</string>
+    <string name="backup_failed_with_reason">Backup failed: %1$s</string>
+    <string name="failed_open_backup_file">Failed to open backup file</string>
+    <string name="restore_successful">Restore successful!</string>
+    <string name="restore_failed_invalid_format">Restore failed: Invalid backup file format</string>
+    <string name="user_blocked">Blocked %1$s</string>
+    <string name="user_unblocked">Unblocked %1$s</string>
+    <string name="chat_unarchived_single">Chat unarchived</string>
+    <string name="chats_unarchived_multi">Chats unarchived</string>
+    <string name="chat_archived_single">Chat archived</string>
+    <string name="chats_archived_multi">Chats archived</string>
+    <string name="chat_deleted_single">Chat deleted</string>
+    <string name="chats_deleted_multi">Chats deleted</string>
+    <string name="no_phone_app_available">No phone app available</string>
+    <string name="sync_in_progress">Sync in progress…</string>
+    <string name="messages_synchronized_success">Messages Text synchronized successfully</string>
+    <string name="setting_night_mode_sub">System</string>
+    <string name="ok">OK</string>
+    <string name="change_language">Change app language</string>
+    <string name="title_settings">Settings</string>
+    <string name="setting_notifications">Notifications</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="delete">Delete</string>
+    <string name="manage_install_uninstall_alerts">Manage install &amp; uninstall Alerts</string>
+    <string name="show_summary_screen_after_call_ends">Show summary screen after call ends</string>
+    <string name="permission_denied_title">Permission Required</string>
+    <string name="permission_denied_desc">Please grant contacts permission to select contacts.</string>
+    <string name="permission_overlay_package_monitor">Please grant overlay permission for package monitor alerts.</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="backup_and_restore_sub">Backup &amp; restore messages</string>
+    <string name="after_call_screen">After call screen</string>
+    <string name="show_summary_after_calls">Show summary after calls</string>
+    <string name="off">Off</string>
+    <string name="messages">Messages Text</string>
+    <string name="blocking">Blocking</string>
+    <string name="blocked_numbers_sub">Blocked Numbers</string>
+    <string name="setting_notifications_sub">Manage notification settings</string>
+    <string name="setting_sync_messages">Sync messages</string>
+    <string name="setting_sync_messages_sub">Re-sync your messages with the native database</string>
+    <string name="privacy_policy_desc">View our privacy terms and conditions</string>
+    <string name="app_installed_title">App Installed</string>
+    <string name="app_uninstalled_title">App Uninstalled</string>
+    <string name="successfully">Successfully</string>
+    <string name="storage_cleaned_space_freed">Storage Cleaned! Space freed.</string>
+    <string name="storage_and_memory">Storage &amp; Memory</string>
+    <string name="residual_cache_removed">Residual cache removed and RAM freed</string>
+    <string name="turn_screen_on_notifications">Turn screen on for new notifications</string>
+    <string name="display_current_conditions">Display Current conditions &amp;</string>
+    <string name="day_and_month_display">Day and month display</string>
+    <string name="search_with_google">Search with Google</string>
+    <string name="folder_tools_everyday_needs">Tools for everyday needs</string>
+    <string name="open_all_apps">Open All Apps</string>
+    <string name="search_apps_hint">Search apps...</string>
+    <string name="message_subtitle_stay_connected">Stay connected, always</string>
+    <string name="smart_feed_photos_desc">Combine photos with creative layouts.</string>
+    <string name="battery_discharging">Discharging</string>
+    <string name="category_technology">TECHNOLOGY</string>
+    <string name="widget_removed">Widget removed</string>
+    <string name="home_screen_layout_locked">Home screen layout is locked</string>
+    <string name="widget_moved">Widget moved</string>
+    <string name="tap_slot_to_move_widget">Tap a slot to move widget, or drag to position</string>
+    <string name="widget_added_to_home">Widget added to home screen</string>
+    <string name="widget_addition_cancelled">Widget addition cancelled</string>
+    <string name="widget_config_cancelled">Widget configuration cancelled</string>
+    <string name="cannot_launch_app">Cannot launch app</string>
+    <string name="app_not_found">App not found</string>
+    <string name="cannot_open_app_settings">Cannot open app settings</string>
+    <string name="camera_not_found">Camera not found</string>
+    <string name="cannot_open_wallpaper_picker">Cannot open wallpaper picker</string>
+    <string name="browser_not_available">Browser not available</string>
+    <string name="voice_search_not_available">Voice search not available</string>
+    <string name="cannot_uninstall_app">Cannot uninstall app</string>
+    <string name="opening_gallery">Opening Gallery...</string>
+    <string name="secure_vault_protected">Secure Vault Protected</string>
+    <string name="messaging_service_desc">Keeps messaging service active in background for instant notifications</string>
+    <string name="header_apps">APPS</string>
+    <string name="header_layout">LAYOUT</string>
+    <string name="zero_apps_count">0 apps</string>
+
+
+
+    /////// SSMSMSSMMSSM
+    <string name="app_tagline">Messenger: SMS Text Messenger</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Make Messages Text Your Default</string>
+    <string name="onboarding_subtitle">To send and receive messages, set Messenger as your default SMS app.</string>
+    <string name="onboarding_feature_1">Send &amp; receive SMS / MMS</string>
+    <string name="onboarding_feature_2">Fast, private &amp; ad-free</string>
+    <string name="onboarding_feature_3">Get instant message notifications</string>
+    <string name="onboarding_note">You can change this anytime in Settings</string>
+    <string name="set_as_default">Set as Default</string>
+    <string name="skip_for_now">Skip for now</string>
+
+    <!-- Main / conversation list -->
+    <string name="messages_title">Messages Text</string>
+    <string name="messages_subtitle">Stay connected, always</string>
+    <string name="filter_all">All</string>
+    <string name="filter_personal">Personal</string>
+    <string name="filter_transaction">Transaction</string>
+    <string name="filter_unread">Unread</string>
+    <string name="new_chat">New Chat</string>
+    <string name="search_hint">Search conversations</string>
+    <string name="no_conversations_title">No conversations yet</string>
+    <string name="no_conversations_subtitle">Tap New Chat to send your first message</string>
+    <string name="permission_required_title">Permissions needed</string>
+    <string name="permission_required_body">Messenger needs SMS and contacts permission to show and send your messages.</string>
+    <string name="grant_permissions">Grant Permissions</string>
+
+    <!-- Chat -->
+    <string name="write_message">Write message…</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="sender_cannot_reply">Sender can\'t accept replies. Contact them directly.</string>
+    <string name="attach">Attach</string>
+    <string name="emoji">Emoji</string>
+    <string name="send">Send</string>
+    <string name="call">Call</string>
+    <string name="more_options">More options</string>
+    <string name="back">Back</string>
+    <string name="view_contact">View contact</string>
+    <string name="delete_conversation">Delete conversation</string>
+    <string name="call_number_fmt">Call %1$s?</string>
+    <string name="attachment_removed">Attachment removed</string>
+    <string name="image_attached">Image attached — will be sent as a note with your next message</string>
+    <string name="message_send_failed">Message could not be sent. Check SMS permission &amp; signal.</string>
+    <string name="sms_sent">Sent</string>
+    <string name="sms_delivered">Delivered</string>
+    <string name="sms_failed">Not sent · tap to retry</string>
+
+    <!-- New chat -->
+    <string name="new_chat_title">New Chat</string>
+    <string name="to_hint">To:</string>
+    <string name="enter_number_hint">Enter name or number</string>
+    <string name="contacts_title">Contacts</string>
+    <string name="no_contacts_found">No contacts found</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_default_app">Default SMS app</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_about">About Messenger</string>
+    <string name="settings_version">Version 1.0</string>
+
+</resources>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:background="#EDEDED">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ScrollView
+            android:layout_above="@+id/nativeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/btnBack"
+                    android:adjustViewBounds="true"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:src="@drawable/back"/>
+                <LinearLayout
+                    android:id="@+id/tp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!-- Title -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Select Age Range"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_14sdp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textStyle="bold"/>
+
+                    <!-- Subtitle -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/popins_regular"
+                        android:gravity="center"
+                        android:text="Pick an age range to discover people or content that\nsuits you best"
+                        android:textColor="#3B93FF"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <!-- AGE 18-24 -->
+                    <LinearLayout
+                        android:id="@+id/layout18"
+                        android:layout_width="match_parent"
+                        android:paddingVertical="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/bg_gender_selected"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="12dp">
+
+                        <ImageView
+                            android:layout_width="38dp"
+                            android:layout_height="38dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/age1"/>
+
+                        <TextView
+                            android:id="@+id/tv18"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:layout_weight="1"
+                            android:text="18-24"
+                            android:textColor="@android:color/white"
+                            android:fontFamily="@font/popins_regular"
+                            android:textSize="20sp"/>
+                    </LinearLayout>
+
+                    <!-- AGE 25-31 -->
+                    <LinearLayout
+                        android:id="@+id/layout25"
+                        android:layout_width="match_parent"
+                        android:paddingVertical="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:background="@drawable/bg_gender_unselected"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="12dp">
+
+                        <ImageView
+                            android:layout_width="38dp"
+                            android:layout_height="38dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/age2"/>
+
+                        <TextView
+                            android:id="@+id/tv25"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:layout_weight="1"
+                            android:text="25-31"
+                            android:textColor="#000"
+                            android:textSize="20sp"/>
+                    </LinearLayout>
+
+                    <!-- AGE 32-39 -->
+                    <LinearLayout
+                        android:id="@+id/layout32"
+                        android:layout_width="match_parent"
+                        android:paddingVertical="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/bg_gender_unselected"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="12dp">
+
+                        <ImageView
+                            android:layout_width="38dp"
+                            android:layout_height="38dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/age3"/>
+
+                        <TextView
+                            android:id="@+id/tv32"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:layout_weight="1"
+                            android:text="32-39"
+                            android:fontFamily="@font/popins_regular"
+                            android:textColor="#000"
+                            android:textSize="20sp"/>
+                    </LinearLayout>
+
+                    <!-- AGE 40+ -->
+                    <LinearLayout
+                        android:id="@+id/layout40"
+                        android:layout_width="match_parent"
+                        android:paddingVertical="@dimen/_5sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:background="@drawable/bg_gender_unselected"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="12dp">
+
+                        <ImageView
+                            android:layout_width="38dp"
+                            android:layout_height="38dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/age4"/>
+
+                        <TextView
+                            android:id="@+id/tv40"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:layout_weight="1"
+                            android:text="40 +"
+                            android:fontFamily="@font/popins_regular"
+                            android:textColor="#000"
+                            android:textSize="20sp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+
+        <FrameLayout
+            android:layout_above="@+id/next"
+            android:id="@+id/nativeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+
+
+        <ImageView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/next" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

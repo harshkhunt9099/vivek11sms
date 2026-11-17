@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/app_info"
+            android:icon="@drawable/lc_ic_info_vector"
+            android:title="@string/lc_app_info" />
+        <item
+            android:id="@+id/resize"
+            android:icon="@drawable/lc_ic_resize_vector"
+            android:title="@string/lc_resize" />
+        <item
+            android:id="@+id/rename"
+            android:icon="@drawable/lc_ic_rename_vector"
+            android:title="@string/lc_rename" />
+        <item
+            android:id="@+id/remove"
+            android:icon="@drawable/lc_ic_cross_vector"
+            android:title="@string/lc_remove" />
+        <item
+            android:id="@+id/uninstall"
+            android:icon="@drawable/lc_ic_delete_vector"
+            android:title="@string/lc_uninstall" />
+    </group>
+</menu>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zone.messanger.text.Views.HomeScreenGrid xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_screen_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_marginTop="@dimen/_3sdp"
+        android:id="@+id/bannerContainer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:background="#21FFFFFF"
+        android:minHeight="@dimen/height_banner_shimmer" />
+
+
+    <com.zone.messanger.text.Views.HomeScreenGridDrawingArea
+        android:layout_below="@+id/bannerContainer"
+        android:id="@+id/drawing_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:translationZ="1dp" />
+
+    <com.zone.messanger.text.Views.MyAppWidgetResizeFrame
+        android:id="@+id/resize_frame"
+        android:layout_below="@+id/bannerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/asdf"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/llSearchHome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/lc_search_bar_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/lc_ic_search" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/sfuitext_regular"
+                android:hint="@string/lc_search_here"
+                android:includeFontPadding="false"
+                android:textColor="@color/lc_txt_color"
+                android:textColorHint="@color/lc_hint_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/ivMicHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="5dp"
+                android:src="@drawable/lc_ic_mic" />
+
+            <ImageView
+                android:id="@+id/ivSettingHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="5dp"
+                android:src="@drawable/lc_ic_setting" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/bannerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:background="#21FFFFFF"
+            android:minHeight="@dimen/height_banner_shimmer" />
+
+    </LinearLayout>
+
+</com.zone.messanger.text.Views.HomeScreenGrid>

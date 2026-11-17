@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.PackageMonitor" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/pm_white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/pm_white</item>
+    </style>
+
+    <style name="Theme.PackageMonitor" parent="Base.Theme.PackageMonitor" />
+
+    <style name="RoundCornerImageView20">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10%</item>
+    </style>
+
+</resources>
